@@ -26,11 +26,11 @@ class ListStuff extends React.Component {
                 <Table.HeaderCell>Quantity</Table.HeaderCell>
                 <Table.HeaderCell>Condition</Table.HeaderCell>
                 <Table.HeaderCell>Edit</Table.HeaderCell>
-                <Table.HeaderCell>Remove</Table.HeaderCell>
               </Table.Row>
             </Table.Header>
             <Table.Body>
-              {this.props.stuffs.map((stuff) => <StuffItem key={stuff._id} stuff={stuff} Stuffs={Stuffs}/>)}
+              //
+              {this.props.stuffs.map((stuff) => <StuffItem key={stuff._id} stuff={stuff}/>)}
             </Table.Body>
           </Table>
         </Container>
